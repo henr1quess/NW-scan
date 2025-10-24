@@ -48,9 +48,6 @@ namespace TPS.Desktop
             {
                 case Keys.F3:
                     if (running) return;
-#if !DEBUG
-                    await Program.UpdateMyApp();
-#endif
                     SetRunning();
                     while (MainWorker.IsBusy) await Task.Delay(10);
                     if (!MainWorker.IsBusy) MainWorker.RunWorkerAsync();
