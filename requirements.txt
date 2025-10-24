@@ -1,0 +1,16 @@
+# NuGet package dependencies for the NW Trading Post Scanner solution
+# Install using: dotnet restore
+
+# TPS.Core project dependencies
+Emgu.CV==4.9.0.5494
+Emgu.CV.Bitmap==4.9.0.5494
+Emgu.CV.runtime.windows==4.9.0.5494
+Emgu.runtime.windows.msvc.rt.x64==19.39.33523
+Fastenshtein==1.0.10
+FuzzierSharp==3.0.1
+System.Drawing.Common==8.0.10
+TesseractOCR==5.3.5
+Vanara.PInvoke.User32==4.0.4
+
+# TPS.Desktop project dependencies
+Velopack==0.0.626
